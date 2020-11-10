@@ -86,6 +86,6 @@ font-size:22px;
    color:white;
 }
 body {
-  height:1000px;
+  height:100%;
   background:linear-gradient(to right,#00dbde,#fc00ff);
 }
