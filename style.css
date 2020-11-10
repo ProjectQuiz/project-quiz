@@ -7,8 +7,8 @@ body{
   font-family:sans-serif;
 }
 .loginbox{
-  width:320px;
-  height:420px;
+  width:350px;
+  height:410px
   background:black;
   color:#fff;
   top:50%;
@@ -33,13 +33,14 @@ font-size:22px;
 
 
 
+
 }
 .loginbox p{
   margin:0;
   padding:0;
   font-weight:bold;
-  
-}
+ 
+  }
 .loginbox input{
   width:100%;
   margin-bottom:20px;
@@ -61,7 +62,7 @@ font-size:22px;
   border:none;
   outline:none;
    height:40px;
-    background:-webkit-linear-gradient(right,#00dbde,#fc00ff,#00dbde,#fc00ff);
+    background:-webkit-linear-gradient(right,#00dbde,#fc00ff);
     color:#fff;
     font-size:18px;
     border-radius:20px;
@@ -74,7 +75,7 @@ font-size:22px;
 }
 .loginbox a
 {
-  text-decoration:none;
+  text-decoration:bold
    font-size:12px;
    line-height:20px;
    color:skyblue;
@@ -83,5 +84,9 @@ font-size:22px;
 {
  cursor:pointer;
    color:white;
+}
+body {
+  height:1000px;
+  background:linear-gradient(to right,#00dbde,#fc00ff);
 }
 
