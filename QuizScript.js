@@ -11,7 +11,7 @@ var nextButton=document.getElementById('nextButton');
 var resultCont=document.getElementById('result');
 
 function loadQuestion(questionIndex) {
-var q = Questions[questionindex];
+var q = Questions[questionIndex];
 questionEl.textContent=(questionIndex + 1) + '. '+ q.question;
 opt1.textContent = q.option1;
 opt2.textContent = q.option2;
@@ -32,7 +32,7 @@ function loadNextQuestion() {
     selectedOption.checked = false;
     currentQuestion++; 
     if(currentQuestion == totQuestions - 1){
-        nextbutton.textContent='Finish';
+        nextButton.textContent='Finish';
     }
     if(currentQuestion==totQuestions){
          container.style.display= 'none';
